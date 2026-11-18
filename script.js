@@ -59,7 +59,7 @@ formulario.addEventListener("submit", function(evento) {
     // Obtener el valor escrito como número
     const valorIngresado = Number(campoValor.value);
 
-    // Verificar que el dato sea válido
+    // Verificar que el dato sea válido->>>
     if (campoValor.value.trim() === "" || !Number.isFinite(valorIngresado)) {
         resultado.textContent = "Escribe una temperatura válida.";
         return;
